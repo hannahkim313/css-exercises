@@ -3,6 +3,12 @@
     font-size: 36px;
 }
 
+#four {
+    background-color: hsl(107, 57%, 73%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .odd,
 .cooler {
     background-color: hsl(350, 57%, 75%, 1);
