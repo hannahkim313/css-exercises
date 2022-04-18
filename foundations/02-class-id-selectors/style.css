@@ -9,8 +9,7 @@
     font-weight: bold;
 }
 
-.odd,
-.cooler {
+.odd {
     background-color: hsl(350, 57%, 75%, 1);
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
