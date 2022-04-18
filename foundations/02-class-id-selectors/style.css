@@ -1,3 +1,8 @@
+#two {
+    color: hsl(196, 57%, 73%);
+    font-size: 36px;
+}
+
 .odd {
     background-color: hsl(350, 57%, 75%, 1);
     font-family: Verdana, "DejaVu Sans", sans-serif;
