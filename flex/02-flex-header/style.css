@@ -2,7 +2,8 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
 .logo {
@@ -29,12 +30,13 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
   display: flex;
+  margin: 0px 10px;
 }
 
 .left-links {
-
+  align-self: flex-start;
 }
 
 .right-links {
-  
+  align-self: flex-end;
 }
