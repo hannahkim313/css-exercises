@@ -19,6 +19,16 @@ body {
   align-items: center;
 }
 
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -34,6 +44,10 @@ body {
   font-style: italic;
 }
 
+.links {
+    display: flex;
+}
+
 button {
   border: none;
   border-radius: 8px;
@@ -46,8 +60,13 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+
+  margin: 15px;
+  padding: 15px;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
