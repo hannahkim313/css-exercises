@@ -38,6 +38,10 @@ body {
   height:  48px;
 }
 
+.notifications {
+    margin-right: 15px;
+}
+
 .logo {
   color: rebeccapurple;
   font-size: 32px;
