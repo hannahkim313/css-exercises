@@ -2,7 +2,7 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -31,12 +31,4 @@ a {
   text-decoration: none;
   display: flex;
   margin: 0px 10px;
-}
-
-.left-links {
-  align-self: flex-start;
-}
-
-.right-links {
-  align-self: flex-end;
 }
