@@ -14,9 +14,15 @@ body {
 }
 
 .header {
+    font-size: 32px;
+    font-weight: 900;
     height: 72px;
     background: darkmagenta;
     color: white;
+    padding-left: 16px;
+    /* Flexbox properties */
+    display: flex;
+    align-items: center;
 }
 
 .footer {
