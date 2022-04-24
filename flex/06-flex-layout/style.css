@@ -33,15 +33,23 @@ a {
 }
 
 .container {
+    min-height: 100%;
+    /* Flexbox properties */
     display: flex;
     flex-direction: column;
 }
 
-.header {
+.header,
+.footer {
     padding: 15px;
     /* Flexbox properties */
     display: flex;
     justify-content: space-between;
+}
+
+.footer {
+    background-color: #eeeeee;
+    margin-top: auto;
 }
 
 .left-links,
