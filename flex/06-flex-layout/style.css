@@ -62,3 +62,11 @@ a {
     display: flex;
     gap: 15px;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
