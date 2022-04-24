@@ -25,3 +25,16 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+a {
+    /* Removes underlined links */
+    text-decoration: none;
+}
+
+.left-links,
+.right-links {
+    /* Removes list bullets */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
