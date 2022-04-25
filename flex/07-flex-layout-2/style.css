@@ -60,7 +60,19 @@ a {
     flex: 1 0 auto;
 }
 
+.cards {
+    padding: 32px;
+    gap: 32px;
+    /* Flexbox properties */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .card {
+    height: 200px;
+    width: 350px;
+    padding: 16px;
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
