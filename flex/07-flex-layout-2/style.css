@@ -12,12 +12,13 @@ a {
     text-decoration: none;
 }
 
-.container-page {
+.container-one {
+    /* Flexbox properties */
     display: flex;
     flex-direction: column;
 }
 
-.container-main {
+.container-three {
     display: flex;
 }
 
