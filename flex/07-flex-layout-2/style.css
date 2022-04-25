@@ -54,7 +54,10 @@ a {
 
 .sidebar {
     width: 300px;
+    padding: 16px;
     background: royalblue;
+    /* Flexbox properties */
+    flex: 1 0 auto;
 }
 
 .card {
