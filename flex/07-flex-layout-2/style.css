@@ -12,13 +12,14 @@ a {
     text-decoration: none;
 }
 
-.container-one {
+.container-page {
     /* Flexbox properties */
     display: flex;
     flex-direction: column;
 }
 
-.container-three {
+.container-main {
+    min-height: 100%;
     display: flex;
 }
 
