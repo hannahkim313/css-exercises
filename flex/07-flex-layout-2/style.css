@@ -57,6 +57,7 @@ a {
 }
 
 .sidebar {
+<<<<<<< HEAD
     width: 300px;
     padding: 16px;
     background: royalblue;
@@ -71,6 +72,11 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+=======
+  width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
+>>>>>>> upstream/main
 }
 
 .card {
